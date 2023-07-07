@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="BPlus.js"></script>
+    <title>B+</title>
+    <style>
+        .node {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 5px;
+          margin: 5px;
+        }
+      </style>
+</head>
+<body>
+
+    <h1>Arvore B+</h1>
+
+    <form id = "criarBPLus" name = "criarBplus">
+
+        <h3>Criação da arvore B+</h3>
+        <label for="fonout">Insira o Tamanho do Fonout:</label>
+       <input type="number" id="fonout" nome="Tamanho do fonout">
+       <input id="botaoFonout" type="button" value="OK">
+       <br>
+
+       <h3>Função de inserção manual:</h3>
+       <label for="inserir">Digite o valor a ser inserido:</label>
+       <input type="number" id="inserir" nome="inserir">
+       <input id="botaoInserir" type="button" value="OK">
+       <br>
+       
+       <h3>Função de inserção aleatória:</h3>
+       <label for="valorMinimo">Digite o valor mínimo:</label>
+       <input type="number" id="valorMinimo" nome="valorMinimo">
+       <br>
+       <label for="valorMaximo">Digite o valor máximo:</label>
+       <input type="number" id="valorMaximo" nome="valorMaximo">
+       <br>
+       <label for="inserirAleatorio">Digite a quantidade de valores a serem adicionados:</label>
+       <input type="number" id="inserirAleatorio" nome="inserirAleatorio">
+       <input id="botaoInserirAleatorio" type="button" value="OK">
+       <br>
+
+       <h3>Função de deletar manual:</h3>
+       <label for="deletar">Digite o valor a ser deletado:</label>
+       <input type="number" id="deletar" nome="deletar">
+       <input id="botaoDeletar" type="button" value="OK">
+       <br>
+
+       <h3>Função de deletar aleatória:</h3>
+       <label for="deletarAleatorio">Digite a quantidade de valores a serem deletados:</label>
+       <input type="number" id="deletarAleatorio" nome="deletarAleatorio">
+       <input id="botaoDeletarAleatorio" type="button" value="OK">
+       <br>
+
+       <h3>Função de busca:</h3>
+       <label for="busca">Digite o valor a ser pesquisado na arvore:</label>
+       <input type="number" id="busca" nome="busca">
+       <input id="botaoBusca" type="button" value="OK">
+       <br>
+
+       <div id="read"></div>
+       <div id="write"></div>
+       <div id="timer"></div>
+      
+       <div id="tree"></div>
+
+    </form>
+</body>
+</html>
